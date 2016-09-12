@@ -3,6 +3,7 @@ var browserSync = require('browser-sync').create();
 var header = require('gulp-header');
 var cleanCSS = require('gulp-clean-css');
 var rename = require("gulp-rename");
+var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var pkg = require('./package.json');
 
@@ -28,7 +29,8 @@ gulp.task('minify-css', function() {
 
 // Minify JS
 gulp.task('minify-js', function() {
-    return gulp.src('js/xyz.js')
+    return gulp.src(['./js/contact_me.js', './js/jqBootstrapValidation.js', './js/xyz.js'])
+        .pipe(concat('dist.js'))
         .pipe(uglify())
         .pipe(header(banner, { pkg: pkg }))
         .pipe(rename({ suffix: '.min' }))

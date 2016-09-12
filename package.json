@@ -1,7 +1,7 @@
 {
   "name": "xyz",
   "title": "xyz",
-  "version": "1.0",
+  "version": "1.0.2",
   "homepage": "https://brunoocasali.xyz",
   "author": "brunoocasali",
   "license": "MIT",
@@ -14,10 +14,11 @@
     "gulp-header": "^1.8.7",
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^1.5.4",
+    "gulp-concat": "2.3.0",
     "jquery": "^1.11.3"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-freelancer.git"
+    "url": "https://github.com/brunoocasali/xyz.git"
   }
 }
