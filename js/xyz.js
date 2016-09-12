@@ -1,4 +1,4 @@
-// Freelancer Theme JavaScript
+// XYZ Theme JavaScript
 
 (function($) {
     "use strict"; // Start of use strict
@@ -40,5 +40,4 @@
             $(this).removeClass("floating-label-form-group-with-focus");
         });
     });
-
 })(jQuery); // End of use strict
