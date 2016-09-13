@@ -521,3 +521,15 @@ fieldset[disabled] .btn-success.active {
 .label-purple[href]:focus {
   background-color: #652da5;
 }
+
+.link-st {
+  color: white; 
+  border-bottom: 1px dotted white;
+  text-decoration: none;
+}
+
+.link-st:hover {
+  color: gray; 
+  border-bottom: 1px dotted gray;
+  text-decoration: none;
+}
