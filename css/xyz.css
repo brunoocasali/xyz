@@ -510,3 +510,14 @@ fieldset[disabled] .btn-success.active {
   opacity: 0;
   display: none;
 }
+
+/* NEW LABELS */
+
+.label-purple {
+  background-color: #6e449d;
+}
+
+.label-purple[href]:hover,
+.label-purple[href]:focus {
+  background-color: #652da5;
+}
